@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #000 0%, #5B5656 50%, #2EAC6D 100%);
+}
+
+.navbar {
+    padding: 25px 20px;
+    width: 100%;
+    height: 30px;
+    background: #373331;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+li {
+    font-size: 24px;
+    font-weight: 500;
+    float: left;
+    margin-right: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 15px;
+
+}
+
+.brand {
+    margin-right: 380px;
+    margin-left: 25px;
+    font-size: 80px;
+    color: #2EAC6D;
+}
+
+li:hover {
+    color: #2EAC6D;
+}
+
+.imge {
+    position: absolute;
+    top: 107px;
+    left: 38%;
+
+}
+
+img {
+    height: 650px;
+}
+
+.hd {
+    position: absolute;
+    color: #fff;
+    top: 240px;
+    left: 40px;
+    font-size: 45px;
+    color: #2EAC6D;
+    letter-spacing: 0.06em;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.content {
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: #ececec;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+}
+
+.top a {
+    position: absolute;
+    top: 455px;
+    left: 40px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2EAC6D;
+    border: 1px solid #2EAC6D;
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.9s;
+    transition-property: background;
+}
+
+.fav a {
+    position: absolute;
+    top: 455px;
+    left: 250px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2EAC6D;
+    border: 1px solid #2EAC6D;
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.all a {
+    position: absolute;
+    top: 540px;
+    left: 157px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2EAC6D;
+    border: 1px solid #2EAC6D;
+    border-radius: 16px 0px 16px 0px;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.all a:hover {
+    border-radius: 0px 16px 0px 16px;
+}
+
+.fav a:hover {
+    border-radius: 0px 16px 0px 16px;
+}
+
+.top a:hover {
+    border-radius: 0px 16px 0px 16px;
+}
+
+a:hover {
+    background: #2EAC6D;
+    color: #fff;
+}
+
+ .table {
+    color: #fff;
+}
+
+.table-responsive {
+    max-height:500px;
+    
+}
+
+
+
+
+
